@@ -1,0 +1,5 @@
+{
+  "promptsFolder": "system/copilot/copilot-custom-prompts",
+  "endpoint": "http://127.0.0.1:11434/api/generate",
+  "model": "qwen3.5:35b-a3b-nvfp4"
+}

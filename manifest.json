@@ -1,0 +1,10 @@
+{
+  "id": "ollama-prompts",
+  "name": "Ollama Prompts",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Right-click a selection, pick one of your prompt files, run it on a local Ollama model. Amend or replace.",
+  "author": "SoulBits Vibe",
+  "isDesktopOnly": true,
+  "authorUrl": "https://github.com/SoulBits-Vibe"
+}
