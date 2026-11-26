@@ -1,0 +1,17 @@
+.ollama-prompts-modal .ollama-prompts-result {
+	width: 100%;
+	height: 300px;
+	font-size: 0.95em;
+}
+
+.ollama-prompts-modal .ollama-prompts-follow {
+	margin-top: 0.5em;
+}
+
+.ollama-prompts-modal .ollama-prompts-request {
+	width: 100%;
+}
+
+.ollama-prompts-modal .ollama-prompts-follow button {
+	margin-top: 6px;
+}
