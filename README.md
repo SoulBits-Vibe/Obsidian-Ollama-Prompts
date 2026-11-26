@@ -4,6 +4,28 @@ Run one of your own prompt files on the text you have selected in Obsidian, usin
 
 Prompts are ordinary Markdown notes in a vault folder. There is no chat box, no embedding database, and no cloud account.
 
+## Screenshots
+
+**Right-click menu, choose a prompt**
+
+![Right-click menu, choose a prompt](images/right-click-menu.png)
+
+**Prompt returns a preview**
+
+![Prompt returns a preview](images/preview.png)
+
+**Completed**
+
+![Completed](images/result.png)
+
+**Prompts are just markdown files**
+
+![Prompts are just markdown files](images/prompts-folder.png)
+
+**Simple settings**
+
+![Simple settings](images/settings.png)
+
 ## Requirements
 
 - Obsidian desktop (this plugin is desktop-only)
