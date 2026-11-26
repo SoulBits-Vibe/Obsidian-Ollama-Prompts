@@ -150,6 +150,29 @@ class OllamaPromptsSettingTab extends PluginSettingTab {
 		this.plugin = plugin;
 	}
 
+	// 1.13.0+: Obsidian calls this and skips display(), so settings appear in search.
+	// Controls bind to this.plugin.settings[key] and are saved automatically.
+	getSettingDefinitions() {
+		return [
+			{
+				name: "Prompt folder",
+				desc: "Vault folder holding your prompt markdown files.",
+				control: { type: "text" as const, key: "promptsFolder" },
+			},
+			{
+				name: "Ollama endpoint",
+				desc: "Local Ollama generate endpoint.",
+				control: { type: "text" as const, key: "endpoint" },
+			},
+			{
+				name: "Model",
+				desc: "Exact name from `ollama list`. Leave this empty until you set a model you have installed.",
+				control: { type: "text" as const, key: "model" },
+			},
+		];
+	}
+
+	// < 1.13.0: Obsidian calls this. Keep the original imperative settings tab.
 	display(): void {
 		const { containerEl } = this;
 		containerEl.empty();
