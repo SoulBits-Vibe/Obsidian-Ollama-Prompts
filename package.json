@@ -1,6 +1,6 @@
 {
 	"name": "ollama-prompts",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Right-click a selection, pick one of your prompt files, run it on a local Ollama model. Amend or replace.",
 	"main": "main.js",
 	"type": "module",
