@@ -8,23 +8,23 @@ Prompts are ordinary Markdown notes in a vault folder. There is no chat box, no 
 
 **Right-click menu, choose a prompt**
 
-![Right-click menu, choose a prompt](images/right-click-menu.png)
+<img src="images/right-click-menu.png" width="350" alt="Right-click menu, choose a prompt">
 
 **Prompt returns a preview**
 
-![Prompt returns a preview](images/preview.png)
+<img src="images/preview.png" width="350" alt="Prompt returns a preview">
 
 **Completed**
 
-![Completed](images/result.png)
+<img src="images/result.png" width="350" alt="Completed">
 
 **Prompts are just markdown files**
 
-![Prompts are just markdown files](images/prompts-folder.png)
+<img src="images/prompts-folder.png" width="350" alt="Prompts are just markdown files">
 
 **Simple settings**
 
-![Simple settings](images/settings.png)
+<img src="images/settings.png" width="350" alt="Simple settings">
 
 ## Requirements
 
